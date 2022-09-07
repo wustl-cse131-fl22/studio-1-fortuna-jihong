@@ -15,7 +15,18 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
+		//if (x < y < z) {
+		//boolean isOrdered = true;	
+	
+		//if (x > y > z) {
+		//	boolean isOrdered = false;
+//}
+		boolean isOrdered = x < y < z;
+		System.out.print(isOrdered);
+		
+		
 
+		
 	}
-
 }
+
